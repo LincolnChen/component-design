@@ -2,11 +2,17 @@ body{
   font-family: sans-serif;
   background: #FFFFFC;
 }
+
+img{
+  margin-top: 40px;
+}
+
+
 h1{
   padding-top: 30px;
   padding-bottom: 30px;
   color: white;
-  margin-top: 100px;
+  margin-top: -4px;
   text-align: center;
   font-family:Century Schoolbook;
   background: url(https://www.clker.com/cliparts/6/2/0/2/13926481231764053423simple-blue-background.jpg) 100%;
@@ -35,7 +41,7 @@ li{
 }
 
 .item{
-  background: #42858C;
+  background: #5DBCD2;
   text-decoration: none;
   padding: 18px;
   border-style: solid;
@@ -82,7 +88,7 @@ li{
  }
 
  .collapsible {
-  background-color: #42858C;
+  background-color: #5DBCD2;
   color: white;
   cursor: point;
   padding: 18px;

@@ -1,0 +1,134 @@
+body{
+  font-family: sans-serif;
+  background: #FFFFFC;
+}
+h1{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+  margin-top: 100px;
+  text-align: center;
+  font-family:Century Schoolbook;
+  background: url(https://www.clker.com/cliparts/6/2/0/2/13926481231764053423simple-blue-background.jpg) 100%;
+  background-size: cover;
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #35393C;
+  color: white;
+  text-align: center;
+}
+
+h2{
+  margin-left: 250px;
+}
+
+img{
+  width: 300px;
+}
+
+li{
+  display: inline;
+}
+
+.item{
+  background: #42858C;
+  text-decoration: none;
+  padding: 18px;
+  border-style: solid;
+  border-width: medium;
+  color: white;
+}
+
+.desc{
+  margin: 30px 250px;
+  text-align: justify;
+}
+
+ .header{
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   background-color: #35393C;
+   color: white;
+   text-align: center;
+ }
+
+ .wrap {
+   width: 1000px;
+   margin: auto;
+   margin-top: 100px;
+ }
+.card img{
+  padding: 3px;
+  margin-top: 5px;
+  width: 280px;
+
+}
+
+ .card{
+   width: 300px;
+   text-align: center;
+   float: left;
+   margin: 10px;
+   border-style: ridge;
+   border-radius: 5px;
+   margin-bottom: 100px;
+   box-shadow: 5px 10px #888888;
+ }
+
+ .collapsible {
+  background-color: #42858C;
+  color: white;
+  cursor: point;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+
+.content {
+  color: #35393C
+  padding: 0 17px;
+  overflow: hidden;
+}
+
+.header{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #35393C;
+  color: white;
+  text-align: center;
+}
+.header a ,.item a{
+  color: white;
+  padding: 14px 30px;
+  text-decoration: none;
+}
+.header a:hover{
+  background-color: #42858C;
+}
+
+
+#hcontent {
+    display:none;
+    width: 265px;
+    margin: none;
+    color: black;
+}
+
+#bhover {
+  width: 265px;
+
+}
+#bhover:hover #hcontent {
+    display:block;
+}

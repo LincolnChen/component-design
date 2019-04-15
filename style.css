@@ -9,10 +9,10 @@ img{
 
 
 h1{
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: white;
-  margin-top: -4px;
+  margin-top: -3px;
   text-align: center;
   font-family:Century Schoolbook;
   background: #201644;
@@ -32,6 +32,24 @@ h2{
   margin-left: 250px;
 }
 
+
+.lincoln .lincolnh4{
+  font-size: 25px;
+  text-transform: uppercase;
+  text-align: left;
+  margin-top: 0px;
+}
+
+.lincoln .container{
+  text-align: left;
+  margin-top: 0px;
+}
+
+.pplater{
+  margin-top: -15px;
+}
+
+
 img{
   width: 300px;
 }
@@ -47,6 +65,7 @@ li{
   border-style: solid;
   border-width: medium;
   color: white;
+
 }
 
 .desc{
@@ -94,18 +113,18 @@ li{
 
  }
 
-  .lincoln{
-    width: 300px;
-    text-align: center;
-    float: left;
-    margin: 10px;
-    border-style: ridge;
-    border-radius: 5px;
-    margin-bottom: 100px;
-    box-shadow: 5px 10px #888888;
-  }
+.lincoln{
+  width: 300px;
+  text-align: center;
+  float: left;
+  margin: 10px;
+  border-style: ridge;
+  border-radius: 5px;
+  margin-bottom: 100px;
+  box-shadow: 5px 10px #888888;
+}
 
- .collapsible {
+ .collapsible{
   background-color: #201644;
   color: white;
   cursor: point;
@@ -115,6 +134,19 @@ li{
   text-align: center;
   outline: none;
   font-size: 15px;
+}
+
+.lincoln .readmore{
+ background-color: #201644;
+ color: white;
+ cursor: point;
+ padding: 18px;
+ width: 100%;
+ border: none;
+ text-align: center;
+ outline: none;
+ font-size: 20px;
+ text-transform: uppercase;
 }
 
 .content {
@@ -143,11 +175,16 @@ li{
 
 
 #hcontent {
-    display:none;
-    width: 265px;
-    margin: none;
-    color: black;
+  display:none;
+  margin: none;
+  color: #f4f6f9;
+  font-family: "Open Sans",Helvetica,Arial,sans-serif;
+  letter-spacing: 3px;
+  text-align: left;
+  font-size: 15px;
+  text-transform: none;
 }
+
 
 #bhover {
   width: 265px;

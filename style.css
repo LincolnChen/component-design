@@ -32,12 +32,16 @@ h2{
   margin-left: 250px;
 }
 
+.lincolntopheading{
+  font-size: 15px;
+}
+
 
 .lincoln .lincolnh4{
   font-size: 25px;
   text-transform: uppercase;
-  text-align: left;
-  margin-top: 0px;
+  margin-top: 10px;
+  text-align: center;
 }
 
 .lincoln .container{
@@ -47,6 +51,7 @@ h2{
 
 .pplater{
   margin-top: -15px;
+  text-align: center;
 }
 
 
@@ -84,9 +89,10 @@ li{
  }
 
  .wrap {
-   width: 1000px;
+   width: 1050px;
    margin: auto;
-   margin-top: 100px;
+   margin-top: 80px;
+
  }
 .card img{
   padding: 3px;
@@ -108,13 +114,14 @@ li{
 
  .lincoln img{
    padding: 3px;
-   margin-top: 5px;
-   width: 280px;
+   margin-top: -10px;
+   width: 100%;
 
  }
 
 .lincoln{
-  width: 300px;
+  width: 330px;
+  height: 500px;
   text-align: center;
   float: left;
   margin: 10px;
@@ -141,12 +148,19 @@ li{
  color: white;
  cursor: point;
  padding: 18px;
- width: 100%;
  border: none;
  text-align: center;
  outline: none;
  font-size: 20px;
  text-transform: uppercase;
+}
+
+.lincoln .readmore,ahover{
+  width: 300px;
+}
+
+#ahover:hover #hcontent {
+    display:block;
 }
 
 .content {

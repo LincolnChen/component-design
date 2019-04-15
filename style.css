@@ -4,18 +4,18 @@ body{
 }
 
 img{
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 
 h1{
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   color: white;
   margin-top: -4px;
   text-align: center;
   font-family:Century Schoolbook;
-  background: url(https://www.clker.com/cliparts/6/2/0/2/13926481231764053423simple-blue-background.jpg) 100%;
+  background: #201644;
   background-size: cover;
 }
 footer{
@@ -41,7 +41,7 @@ li{
 }
 
 .item{
-  background: #5DBCD2;
+  background: #201644;
   text-decoration: none;
   padding: 18px;
   border-style: solid;
@@ -87,8 +87,26 @@ li{
    box-shadow: 5px 10px #888888;
  }
 
+ .lincoln img{
+   padding: 3px;
+   margin-top: 5px;
+   width: 280px;
+
+ }
+
+  .lincoln{
+    width: 300px;
+    text-align: center;
+    float: left;
+    margin: 10px;
+    border-style: ridge;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    box-shadow: 5px 10px #888888;
+  }
+
  .collapsible {
-  background-color: #5DBCD2;
+  background-color: #201644;
   color: white;
   cursor: point;
   padding: 18px;
